@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/europeanCapitalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitales de pays européens" />
+
+    <Button
+        android:id="@+id/africanCapitalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitales de pays africains"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/asianCapitalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitales de pays asiatiques"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
